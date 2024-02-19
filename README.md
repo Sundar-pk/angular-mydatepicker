@@ -3,8 +3,8 @@
 <h2 align="center">Angular datepicker and date range picker</h2>
 
 <p align="center">
-  <a href="https://github.com/Sundar-pk/angular-mydatepicker">
-         https://github.com/Sundar-pk/angular-mydatepicker 
+  <a href="https://github.com/sundar-pk/angular-mydatepicker">
+         https://github.com/sundar-pk/angular-mydatepicker 
   </a>
 </p>
 
@@ -38,13 +38,13 @@ This updated version uses `"compilationMode": "partial"` for use in Ivy-enabled 
 
 If you need a version compatible with an older (View Engine) Angular application, the original package can be found [here.](https://www.npmjs.com/package/angular-mydatepicker)
 
-Credits : sundar-pk
+Credits : kekeh / nodro7
 
 ---
 ## Install
 
 ```console
-npm install @sundar-pk/angular-mydatepicker
+npm install ivy-ag16-angular-mydatepicker
 ```
 ---
 
@@ -93,7 +93,7 @@ Basic idea to create this library was to make it as configurable as possible. Th
 
 To install this component to an external project, follow the procedure:
 
-1. `npm install @sundar-pk/angular-mydatepicker`
+1. `npm install ivy-ag16-angular-mydatepicker`
 
 2. Add `AngularMyDatePickerModule` import to your `@NgModule` as follows:
 
@@ -149,7 +149,7 @@ The `options` attribute is a type of [IAngularMyDpOptions] It has the following 
 | Option         | Default        | Type | Description |
 | :------------- | :------------- | :----| :---------- |
 | **dateRange**   | false | boolean | Date picker mode (date picker or date range picker). |
-| **inline**   | false | boolean | Normal mode or inline mode. If **inline** mode is used, set the input box **type** attribute to **hidden** and this option to **true**. [Here] is an example.|
+| **inline**   | false | boolean | Normal mode or inline mode. If **inline** mode is used, set the input box **type** attribute to **hidden** and this option to **true**. Here is an example.|
 | **dayLabels**     | {su: 'Sun', mo: 'Mon', tu: 'Tue', we: 'Wed', th: 'Thu', fr: 'Fri', sa: 'Sat'} | [IMyDayLabels] | Day labels visible on the selector. |
 | **monthLabels**   | { 1: 'Jan', 2: 'Feb', 3: 'Mar', 4: 'Apr', 5: 'May', 6: 'Jun', 7: 'Jul', 8: 'Aug', 9: 'Sep', 10: 'Oct', 11: 'Nov', 12: 'Dec' } | [IMyMonthLabels] | Month labels visible on the selector. |
 | **dateFormat**    | yyyy-mm-dd | string |  Date format on the selection area and the callback. For example: **d.m.yyyy**, **dd.mm.yyyy**, **yyyy-m-d**, **yyyy-mm-dd**, **d mmm yyyy**, **dd mmm yyyy**, **d## of mmm yyyy** (d = Day not leading zero, dd = Day with leading zero, d## = Ordinal dates for example 3rd, m = Month not leading zero, mm = Month with leading zero, mmm = Month as a text, yyyy = Year four digit) |
@@ -191,9 +191,9 @@ The `options` attribute is a type of [IAngularMyDpOptions] It has the following 
 | **showMonthNumber**   | true | boolean | Is month number shown or not on the month view. |
 | **todayTxt**   | empty string | string | Today footer text. This value comes also from locale [Locales]: If there is locale it is not necessary to add this property. Also the **showFooterToday** option have to be **true** in order to use this option. If you want to add only today date to the footer put empty string to the value of this option.|
 | **showFooterToday**   | false | boolean | Is today footer shown or not. |
-| **calendarAnimation**   | no default value | [IMyCalendarAnimation] | The type of open (**in**) and close (**out**) animation of calendar. One of the following ([CalAnimation]) value: **None**, **Fade**, **ScaleTop**, **ScaleCenter**, **Rotate**,  **FlipDiagonal** or **Own**. Try animations [here].|
+| **calendarAnimation**   | no default value | [IMyCalendarAnimation] | The type of open (**in**) and close (**out**) animation of calendar. One of the following ([CalAnimation]) value: **None**, **Fade**, **ScaleTop**, **ScaleCenter**, **Rotate**,  **FlipDiagonal** or **Own**. 
 | **viewChangeAnimation**   | true | boolean | Is view change animation enabled or not. |
-| **rtl**   | false | boolean | Is RTL enabled or not. Try RTL [here]. |
+| **rtl**   | false | boolean | Is RTL enabled or not.
 | **stylesData**   | no default value | [IMyStyles] | Overridden styles of the datepicker. See also [chapter] below. |
 | **divHostElement**   | no default value | [IMyDivHostElement] | Div as a host element. In case of non-editable date field enable this option and put a **angular-mydatepicker** directive inside a **div** element. Placeholder text is an additional property of this option. Functionality is limited if this option is enabled. It is also possible to use input box and set it to **disabled** to archieve non-editable date field. |
 | **ariaLabelPrevMonth**   | Previous Month | string | Aria label text of previous month button. |
@@ -259,7 +259,7 @@ The **locale** options can be overridden by **options** attribute.
 * a new locale data will be added to [this]
 file. If you want to add a new locale create a pull request.
 
-Try locales [here]
+Try locales
 
 ### defaultMonth attribute
 
@@ -397,7 +397,7 @@ It is possible override any of [these] styles.
 In order the following commands work you need a **git client** and **npm**.
 
 * At first fork and clone this repo:
-  1. __git clone <https://github.com/Sundar-pk/angular-mydatepicker.git/>__
+  1. __git clone <https://github.com/sundar-pk/angular-mydatepicker.git/>__
   2. **cd angular-mydatepicker**
 
 * Install dependencies:
@@ -432,3 +432,7 @@ In order the following commands work you need a **git client** and **npm**.
 ## Original Author
 
 * [kekeh](https://github.com/kekeh)
+
+## Fork - I Author
+
+* [Nodro7](https://github.com/nodro7)

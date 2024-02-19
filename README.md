@@ -9,24 +9,24 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@nodro7/angular-mydatepicker">
-    <img src="https://img.shields.io/npm/v/@nodro7/angular-mydatepicker?logo=npm&logoColor=green&style=for-the-badge" alt="NPM Package" />
+  <a href="https://www.npmjs.com/package/@sundar-pk/angular-mydatepicker">
+    <img src="https://img.shields.io/npm/v/@sundar-pk/angular-mydatepicker?logo=npm&logoColor=green&style=for-the-badge" alt="NPM Package" />
   </a>&nbsp;
 
-  <a href="https://www.npmjs.com/package/@nodro7/angular-mydatepicker">
-    <img src="https://img.shields.io/npm/dm/@nodro7/angular-mydatepicker?logo=npm&style=for-the-badge" alt="NPM Downloads" />
+  <a href="https://www.npmjs.com/package/@sundar-pk/angular-mydatepicker">
+    <img src="https://img.shields.io/npm/dm/@sundar-pk/angular-mydatepicker?logo=npm&style=for-the-badge" alt="NPM Downloads" />
   </a>&nbsp;
 
-  <a href="https://app.codecov.io/gh/nodro7/angular-mydatepicker">
-    <img src="https://img.shields.io/codecov/c/gh/nodro7/angular-mydatepicker?logo=codecov&style=for-the-badge" alt="Codecov Coverage" />
+  <a href="https://app.codecov.io/gh/sundar-pk/angular-mydatepicker">
+    <img src="https://img.shields.io/codecov/c/gh/sundar-pk/angular-mydatepicker?logo=codecov&style=for-the-badge" alt="Codecov Coverage" />
   </a>&nbsp;
 
-  <a href="https://github.com/nodro7/angular-mydatepicker/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/nodro7/angular-mydatepicker/npm-publish.yml?logo=github&style=for-the-badge" alt="Build Status" />
+  <a href="https://github.com/sundar-pk/angular-mydatepicker/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/sundar-pk/angular-mydatepicker/npm-publish.yml?logo=github&style=for-the-badge" alt="Build Status" />
   </a>&nbsp;
 
-  <a href="https://github.com/nodro7/angular-mydatepicker/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/nodro7/angular-mydatepicker?&style=for-the-badge" alt="License" />
+  <a href="https://github.com/sundar-pk/angular-mydatepicker/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/sundar-pk/angular-mydatepicker?&style=for-the-badge" alt="License" />
   </a>
 </p>
 
@@ -38,7 +38,7 @@ This updated version uses `"compilationMode": "partial"` for use in Ivy-enabled 
 
 If you need a version compatible with an older (View Engine) Angular application, the original package can be found [here.](https://www.npmjs.com/package/angular-mydatepicker)
 
-Credits : nodro7
+Credits : sundar-pk
 
 ---
 ## Install
@@ -50,7 +50,7 @@ npm install @sundar-pk/angular-mydatepicker
 
 ## Changelog
 
-CHANGELOG.md has been deprecated, for recent changes see [GitHub releases](https://github.com/nodro7/angular-mydatepicker/releases).
+CHANGELOG.md has been deprecated, for recent changes see [GitHub releases](https://github.com/sundar-pk/angular-mydatepicker/releases).
 
 ---
 
@@ -93,7 +93,7 @@ Basic idea to create this library was to make it as configurable as possible. Th
 
 To install this component to an external project, follow the procedure:
 
-1. `npm install @nodro7/angular-mydatepicker`
+1. `npm install @sundar-pk/angular-mydatepicker`
 
 2. Add `AngularMyDatePickerModule` import to your `@NgModule` as follows:
 
@@ -101,7 +101,7 @@ To install this component to an external project, follow the procedure:
     import { BrowserModule } from '@angular/platform-browser';
     import { NgModule } from '@angular/core';
     import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-    import { AngularMyDatePickerModule } from '@nodro7/angular-mydatepicker';
+    import { AngularMyDatePickerModule } from '@sundar-pk/angular-mydatepicker';
 
     @NgModule({
       declarations: [
